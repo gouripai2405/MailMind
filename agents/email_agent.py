@@ -3,9 +3,10 @@ from openai import OpenAI
 
 # Groq-compatible client (modern OpenAI Python SDK)
 client = OpenAI(
-    api_key="YOUR_API_KEY_HERE",  
-    base_url="https://api.groq.com/openai/v1"  # Required for Groq
+    base_url="https://api.groq.com/openai/v1",
+    api_key=st.secrets["GROQ_API_KEY"]
 )
+
 
 def generate_email_response(email_text, tone):
     prompt = f"""
