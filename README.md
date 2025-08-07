@@ -27,4 +27,5 @@ Built using **Groq's ultra-fast LLaMA3/Mixtral models**, this app generates prof
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the app]((https://mailmind-auto-responder.streamlit.app/))
+👉 [Click here to try the app](https://mailmind-auto-responder.streamlit.app/)
+
