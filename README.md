@@ -22,3 +22,9 @@ Built using **Groq's ultra-fast LLaMA3/Mixtral models**, this app generates prof
 - **Backend**: Groq API (`llama3-8b-8192` / `mixtral-8x7b-32768`)
 - **Email Sending**: SMTP with Gmail (via `smtplib`)
 - **Deployment**: Streamlit Cloud / GitHub
+
+---
+
+## 🚀 Live Demo
+
+👉 [Click here to try the app]((https://mailmind-auto-responder.streamlit.app/))
